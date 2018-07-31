@@ -4,4 +4,4 @@ RUN apk add --update git && rm -rf /var/cache/apk/* \
 
 FROM alpine:latest
 COPY --from=0 /go/bin/docker-distribution-pruner .
-ENTRYPOINT /docker-distribution-pruner
+ENTRYPOINT ["/docker-distribution-pruner"]

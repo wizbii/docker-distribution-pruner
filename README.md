@@ -1,6 +1,6 @@
 # Docker distribution pruner
 
-This is a dockerfile to build the gitlab's docker distribution pruner ([https://gitlab.com/gitlab-org/docker-distribution-pruner]()).
+This is a dockerfile to build the gitlab's docker distribution pruner ([https://gitlab.com/gitlab-org/docker-distribution-pruner](https://gitlab.com/gitlab-org/docker-distribution-pruner)).
 
 The image is published as an automated build on the docker hub, you can pull it with `docker pull wizbii/distribution-pruner`.
 
